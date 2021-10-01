@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro contador = 0
+		cadeia contato[][] = {{"João","São Paulo","(11) 99999-5241"},{"Maria","Ribeirão Preto","(16) 99999-8596"},{"Ana","Manaus","(92) 99999-8574"}}
+		
+		faca{
+
+			escreva ("Contato " +  contato [contador][0] + "| Cidade: " + contato[contador][1] + "| Telefone: " + contato[contador][2] + "\n")
+			contador++
+		}enquanto (contador <= 2)
+	}
+}
