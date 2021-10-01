@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro contador,limite,resultado,tabuada
+		
+		contador = 0
+		//Define quantas vezes o número será multiplicado
+		limite = 10
+
+		//Vai definir o valor a ser usado na multiplicação
+		escreva ("Qual tabuada você quer resolver? ")
+		leia(tabuada)
+
+		
+		faca {
+			resultado = tabuada * contador
+			escreva (tabuada + " X " + contador + " = " + resultado + "\n")
+			contador ++
+		}
+		
+		enquanto (contador <= limite)
+	}
+}
